@@ -1,0 +1,45 @@
+{
+  "name": "@arthanasti/plugin-chart-word-cloud",
+  "version": "1.0.0",
+  "description": "Superset Chart Plugin - Word Cloud",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthanadftz/superset-ui.git#nzh1519"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Arthanadftz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Arthanadftz/superset-ui/issues"
+  },
+  "homepage": "https://github.com/Arthanadftz/superset-ui#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@arthanasti/chart-controls": "1.0.0",
+    "@superset-ui/core": "0.15.19",
+    "@types/d3-cloud": "^1.2.1",
+    "@types/d3-scale": "^2.0.2",
+    "d3-cloud": "^1.2.5",
+    "d3-scale": "^3.0.1",
+    "emotion-theming": "^10.0.27",
+    "encodable": "^0.7.6"
+  },
+  "peerDependencies": {
+    "@types/react": "*",
+    "react": "^16.13.1"
+  },
+  "gitHead": "86fd882913e01259e56c5fd75ce39d7aff6b993b"
+}
