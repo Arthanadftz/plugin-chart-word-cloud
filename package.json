@@ -1,6 +1,6 @@
 {
   "name": "@arthanasti/plugin-chart-word-cloud",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Superset Chart Plugin - Word Cloud",
   "sideEffects": [
     "*.css"
